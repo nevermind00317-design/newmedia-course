@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>课堂作业完整示范｜麦当劳“麦麦对讲机”</title>
+<style>
+:root{
+  --bg:#f6f7f9; --paper:#fff; --text:#20242a; --muted:#69707a;
+  --red:#d62300; --yellow:#ffbc0d; --line:#e6e8eb; --green:#2d7d46;
+  --blue:#2b5fb8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;color:var(--text);line-height:1.75}
+a{color:#164f9e;text-decoration:none}
+a:hover{text-decoration:underline}
+.topbar{
+  position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);
+  border-bottom:1px solid var(--line);backdrop-filter:blur(8px)
+}
+.topbar-inner{max-width:1120px;margin:auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-weight:800}.brand span{color:var(--red)}
+nav{display:flex;gap:10px;flex-wrap:wrap}
+nav a{font-size:13px;color:#444;padding:5px 8px;border-radius:7px}
+nav a:hover{background:#f1f3f5;text-decoration:none}
+.hero{background:linear-gradient(135deg,#fff 0%,#fff8dc 100%);border-bottom:1px solid var(--line)}
+.hero-inner{max-width:1120px;margin:auto;padding:56px 24px 44px;display:grid;grid-template-columns:1.45fr .8fr;gap:34px}
+.kicker{display:inline-block;background:var(--yellow);font-weight:800;padding:4px 10px;border-radius:999px;font-size:13px}
+h1{font-size:40px;line-height:1.2;margin:14px 0 14px}
+.lead{font-size:18px;color:#4f5660;max-width:760px}
+.notice{background:#fff;border:1px solid #eadfb7;border-left:5px solid var(--yellow);padding:18px 20px;border-radius:10px}
+.notice b{color:#8b6500}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.meta div{background:#fff;border:1px solid var(--line);padding:10px 12px;border-radius:9px;font-size:14px}
+main{max-width:1120px;margin:0 auto;padding:28px 20px 70px}
+section{background:var(--paper);border:1px solid var(--line);border-radius:14px;margin:20px 0;padding:28px}
+h2{font-size:26px;margin:0 0 18px;border-left:6px solid var(--red);padding-left:12px}
+h3{font-size:18px;margin:22px 0 8px}
+.small{font-size:13px;color:var(--muted)}
+.fact,.analysis,.sample,.warn{
+  border-radius:10px;padding:14px 16px;margin:14px 0
+}
+.fact{background:#f2f7ff;border-left:4px solid var(--blue)}
+.analysis{background:#f5fbf6;border-left:4px solid var(--green)}
+.sample{background:#fffaf0;border-left:4px solid var(--yellow)}
+.warn{background:#fff4f2;border-left:4px solid var(--red)}
+.label{font-weight:800;margin-right:8px}
+.fact .label{color:var(--blue)} .analysis .label{color:var(--green)} .sample .label{color:#8d6800}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+th,td{border:1px solid var(--line);padding:10px 12px;vertical-align:top;text-align:left}
+th{background:#fafafa}
+ul,ol{padding-left:22px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{border:1px solid var(--line);border-radius:10px;padding:15px;background:#fff}
+.card b{display:block;margin-bottom:6px}
+.title-box{font-size:24px;font-weight:800;background:#f7f7f8;border:1px dashed #bbb;padding:18px 20px;border-radius:10px}
+.article{
+  font-size:16px;line-height:1.95;background:#fcfcfd;border:1px solid var(--line);
+  padding:24px;border-radius:12px
+}
+.article p{margin:0 0 16px}
+.source-list a{display:block;padding:10px 0;border-bottom:1px dashed #ddd;word-break:break-all}
+.footer{color:#777;text-align:center;padding:28px}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;background:#eee;font-size:12px;margin-right:5px}
+@media(max-width:800px){
+  .hero-inner{grid-template-columns:1fr}.grid2,.grid3{grid-template-columns:1fr}
+  h1{font-size:30px} nav{display:none} section{padding:20px}
+}
+@media print{
+  .topbar{display:none} body{background:#fff} section{break-inside:avoid;border-color:#ccc}
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">新媒体综合实践｜<span>作业完整示范</span></div>
+    <nav>
+      <a href="#part1">案例介绍</a>
+      <a href="#part2">活动分析</a>
+      <a href="#part3">文案创作</a>
+      <a href="#part4">素材来源</a>
+      <a href="#check">自检</a>
+    </nav>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="kicker">示范案例 · 不得作为正式作业选题</span>
+      <h1>麦当劳“麦麦对讲机”<br>课堂综合作业完整示范</h1>
+      <p class="lead">本页严格按照《新媒体活动运营与文案写作》课堂作业模板填写。本页按照课堂作业模板完整填写，可直接对照查看案例分析、文案创作与素材整理的完成方式。</p>
+      <div class="meta">
+        <div><b>案例时间：</b>2024年5月</div>
+        <div><b>主要平台：</b>麦当劳App / 微信 / 支付宝小程序 / 社交媒体</div>
+        <div><b>对应第三章：</b>活动目标、用户、机制、参与度</div>
+        <div><b>对应第四章：</b>选题、构思、文案、PGC/OGC/UGC</div>
+      </div>
+    </div>
+    <div class="notice">
+      <b>阅读方式</b>
+      <p>蓝色框＝可以核实的事实资料</p>
+      <p>绿色框＝示范分析与判断</p>
+      <p>黄色框＝示范填写内容</p>
+      <p class="small">分析属于示范分析，并非麦当劳官方结论。</p>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="part1">
+  <h2>第一部分｜基本信息与案例介绍</h2>
+
+  <h3>1. 案例名称</h3>
+  <div class="sample"><span class="label">填写示范：</span>麦当劳中国2024年六一主题活动——“麦麦对讲机”限定周边传播</div>
+
+  <h3>2. 活动时间</h3>
+  <div class="sample"><span class="label">填写示范：</span>2024年5月22日起，属于麦当劳中国2024年六一儿童节系列主题活动的一部分。</div>
+
+  <h3>3. 活动涉及平台</h3>
+  <p><span class="badge">麦当劳App</span><span class="badge">微信小程序</span><span class="badge">支付宝小程序</span><span class="badge">线下门店</span><span class="badge">微博等社交媒体讨论</span></p>
+
+  <h3>4. 活动基本情况（100—150字）</h3>
+  <div class="sample">
+    <span class="label">填写示范：</span>
+    2024年六一儿童节前夕，麦当劳中国围绕“一块麦乐鸡，一块多开心！”推出系列主题活动，其中“麦麦对讲机”成为传播度很高的限定周边。消费者通过麦当劳App、微信/支付宝小程序到店取餐或自助点餐机购买任意菜单产品后，可额外加38元获得一对对讲机，每单限购1对，全国各渠道限量50万对。对讲机采用麦乐鸡块和薯条造型，并具备基础通讯功能。活动上线后迅速引发抢购、社交讨论及二手转售现象。
+  </div>
+
+  <div class="fact">
+    <span class="label">事实依据：</span>
+    麦当劳官方页面明确写明：2024年5月22日10:45起，任意消费后额外加38元可获得“麦麦对讲机”1对，每单限购1对，全国各渠道限50万对。官方六一主题新闻还说明，全国约6000家餐厅推出系列节日产品与活动。
+  </div>
+
+  <h3>5. 资料来源</h3>
+  <div class="source-list">
+    <a href="https://www.mcdonalds.com.cn/news/20240522-Childrens-day-2" target="_blank">① 麦当劳中国官网｜“1元1块麦乐鸡！！还有摇摇薯条！”（活动规则）</a>
+    <a href="https://www.mcdonalds.com.cn/news/20240522-Childrens-Day" target="_blank">② 麦当劳中国官网｜“一块麦乐鸡，一块多开心！”六一主题活动</a>
+    <a href="https://www.thepaper.cn/newsDetail_forward_27534825" target="_blank">③ 澎湃新闻｜对讲机卖断货，二手平台高价转卖……</a>
+  </div>
+</section>
+
+<section id="part2">
+  <h2>第二部分｜新媒体活动运营分析</h2>
+
+  <h3>6. 活动主要目的是什么？</h3>
+  <p><span class="badge">品牌传播</span><span class="badge">用户互动</span><span class="badge">促进消费</span></p>
+  <div class="analysis">
+    <span class="label">示范分析：</span>
+    这次活动并非只为了销售一个38元周边。麦当劳把经典产品“麦乐鸡”和“薯条”做成可使用、可拍照、可社交分享的对讲机，把食品符号转化为具有收藏和互动属性的品牌周边。消费者需要先完成餐品消费才能加价换购，因此活动同时连接了门店消费、品牌话题和社交传播。
+  </div>
+
+  <h3>7. 主要目标用户是谁？</h3>
+  <div class="analysis">
+    <span class="label">示范分析：</span>
+    核心目标并不只限于儿童。官方六一主题活动明确邀请“小朋友及大朋友们”参与。实际传播中，大量年轻消费者受到玩具造型、童年情绪、限定感和社交属性吸引。对这类用户而言，“麦麦对讲机”既是玩具，也是可以拍照、发朋友圈、与朋友互动的社交物件。因此目标用户可理解为：麦当劳既有消费者、年轻社交媒体用户、喜欢限定周边和趣味玩具的人群，以及亲子家庭。
+  </div>
+
+  <h3>8. 用户参与机制</h3>
+  <table>
+    <tr><th>分析项目</th><th>案例中的具体做法</th></tr>
+    <tr><td>用户怎么参加</td><td>购买任意菜单产品后，额外加38元换购一对“麦麦对讲机”。</td></tr>
+    <tr><td>参与门槛</td><td>需要产生一次实际消费；每单限购1对，且全国限量50万对。</td></tr>
+    <tr><td>奖励/获得物</td><td>获得一对具有麦乐鸡和薯条造型、可实际通讯的限定周边。</td></tr>
+    <tr><td>社交传播</td><td>产品外形识别度高、具备“双人使用”特征，天然适合与朋友互动、拍照和分享。</td></tr>
+    <tr><td>稀缺机制</td><td>限量、先到先得、售完即止，提高了用户的即时购买动力。</td></tr>
+  </table>
+
+  <h3>9. “有料、有心、有趣”分析</h3>
+  <div class="grid3">
+    <div class="card"><b>有料</b>对讲机并非纯摆件，具有基础通讯功能；用户获得的是具有实际使用价值的周边。</div>
+    <div class="card"><b>有趣</b>麦乐鸡和薯条被转化成可对讲的玩具，具有明显反差感和视觉趣味，容易形成拍摄和讨论。</div>
+    <div class="card"><b>有心</b>活动选择六一节点，并强调“小朋友及大朋友们”，将儿童节从儿童专属延展到成年人的童趣和情绪体验。</div>
+  </div>
+
+  <div class="analysis">
+    <span class="label">综合判断：</span>
+    本案例最突出的是“有趣”和“有料”。它没有只提供一个普通塑料赠品，而是把品牌经典产品造型、真实对讲功能和双人互动结合起来。用户拿到后不仅“拥有”，还可以继续“玩、拍、分享”，因此周边本身就成为后续传播内容。
+  </div>
+
+  <h3>10. 可以改进的地方</h3>
+  <div class="analysis">
+    <span class="label">示范分析：</span>
+    最大问题是供需失衡带来的用户体验压力。活动上线后部分点餐功能受到影响，多地出现快速售罄，同时二手平台出现明显加价转售。限量机制确实强化了稀缺感，但如果大量真实消费者因为系统拥堵或库存不足无法正常参与，就会削弱活动体验。后续类似活动可以增加预约、抽签或更透明的门店库存提示，在保持限定感的同时降低抢购和黄牛带来的负面体验。
+  </div>
+
+  <div class="fact">
+    <span class="label">事实依据：</span>
+    澎湃新闻和36氪均报道了上线首日点餐功能受影响、部分门店快速售罄以及二手平台加价转售的情况。
+  </div>
+</section>
+
+<section id="part3">
+  <h2>第三部分｜新媒体文案创作</h2>
+
+  <h3>11. 选择发布平台</h3>
+  <div class="sample"><span class="label">填写示范：</span>小红书</div>
+
+  <h3>12. 为什么选择这个平台？</h3>
+  <div class="sample">
+    <span class="label">填写示范：</span>
+    “麦麦对讲机”具有很强的视觉识别度、体验感和社交分享属性，适合通过图片、短视频和使用体验进行展示。小红书用户也经常搜索新品、限定周边、购买体验和“值不值得买”等内容，因此适合用体验型笔记进行传播。
+  </div>
+
+  <h3>13. 文案选题</h3>
+  <div class="sample">
+    <span class="label">填写示范：</span>
+    从实际体验角度介绍“麦麦对讲机”到底是什么、怎么玩，以及它为什么会成为六一期间的热门周边。
+  </div>
+
+  <h3>14. 正式标题</h3>
+  <div class="title-box">麦当劳这对“薯条+麦乐鸡”真的能对讲？麦麦对讲机体验来了</div>
+
+  <h3>15. 内容提纲</h3>
+  <table>
+    <tr><th>部分</th><th>准备写什么</th></tr>
+    <tr><td>开头</td><td>从“看起来像玩具，但真的能对讲”这个反差点进入，吸引用户继续看。</td></tr>
+    <tr><td>第一部分</td><td>介绍活动规则：任意消费+38元、1对、限量50万对，以及麦乐鸡/薯条造型。</td></tr>
+    <tr><td>第二部分</td><td>介绍实际玩法和使用场景：朋友之间对讲、拍照、挂饰、聚会互动。</td></tr>
+    <tr><td>第三部分</td><td>分析为什么它会火：限定感、真实功能、品牌符号、双人社交属性。</td></tr>
+    <tr><td>结尾</td><td>提醒以官方渠道和实际库存为准，并表达“周边是否值得买取决于是否真正喜欢和会使用”。</td></tr>
+  </table>
+
+  <h3>16. 完整新媒体文案（小红书示范，约400字）</h3>
+  <div class="article">
+    <p><b>麦当劳出对讲机了？？？</b></p>
+    <p>一开始刷到还以为只是个造型周边，结果它居然真的能用。一个是薯条，一个是麦乐鸡，两个人一人拿一个就可以直接对讲。</p>
+    <p>买任意餐品之后，再加38元就能换购一对，每单限购1对，而且还是限量的。</p>
+    <p>这个设计也太适合朋友、情侣或者家里人一起玩了吧，拿来拍照、出去玩的时候带着都挺有意思。</p>
+    <p>但是开售以后真的太难抢了。有些门店很快就没货，网上也有加价转卖的。要是原价能买到，我觉得还是挺值得玩的；但如果要花几倍价格去收，就完全没必要了。</p>
+    <p>#麦当劳 #麦麦对讲机 #麦当劳周边 #六一限定 #品牌联名</p>
+  </div>
+</section>
+
+<section id="part4">
+  <h2>第四部分｜素材搜集与信息来源</h2>
+
+  <h3>17. PGC素材</h3>
+  <table>
+    <tr><th>项目</th><th>填写示范</th></tr>
+    <tr><td>素材名称</td><td>麦当劳中国六一主题活动官方介绍</td></tr>
+    <tr><td>来源</td><td>麦当劳中国官网</td></tr>
+    <tr><td>链接</td><td><a href="https://www.mcdonalds.com.cn/news/20240522-Childrens-Day" target="_blank">https://www.mcdonalds.com.cn/news/20240522-Childrens-Day</a></td></tr>
+    <tr><td>准备怎么用</td><td>核对活动主题、活动时间、门店范围、Mr Doodle合作及六一整体活动背景。</td></tr>
+  </table>
+
+  <h3>18. OGC素材</h3>
+  <table>
+    <tr><th>项目</th><th>填写示范</th></tr>
+    <tr><td>素材名称</td><td>《对讲机卖断货，二手平台高价转卖，连锁快餐周边产品为何如此火爆？》</td></tr>
+    <tr><td>来源</td><td>澎湃新闻</td></tr>
+    <tr><td>链接</td><td><a href="https://www.thepaper.cn/newsDetail_forward_27534825" target="_blank">https://www.thepaper.cn/newsDetail_forward_27534825</a></td></tr>
+    <tr><td>准备怎么用</td><td>了解活动上线后的实际市场反馈，包括售罄、App功能受影响、二手转售和消费者讨论。</td></tr>
+  </table>
+
+  <h3>19. UGC素材</h3>
+  <table>
+    <tr><th>项目</th><th>填写示范</th></tr>
+    <tr><td>素材内容</td><td>消费者在社交平台分享抢购、开箱、实际对讲体验，以及“朋友圈都在抢”等讨论。</td></tr>
+    <tr><td>来源平台</td><td>微博、小红书等用户社交平台</td></tr>
+    <tr><td>使用方式</td><td>用于发现用户真正关注的问题：是否真的能对讲、有没有货、值不值得买、为什么大家愿意分享。</td></tr>
+    <tr><td>注意事项</td><td>UGC用于观察体验和问题，不把单个用户评论直接当成普遍事实；涉及距离、数量、活动规则等事实仍回到官方或媒体资料核实。</td></tr>
+  </table>
+
+  <h3>20. 图片/视觉素材</h3>
+  <div class="sample">
+    <span class="label">填写示范：</span>
+    优先使用麦当劳中国官方活动页面中的“麦麦对讲机”产品图或活动视觉作为分析参考，并记录原始页面链接。课堂作业可用于学习展示；如用于公开商业发布，还需进一步确认图片授权范围。
+  </div>
+
+  <h3>为什么三类素材要配合使用？</h3>
+  <div class="grid3">
+    <div class="card"><b>PGC / 官方资料</b>帮助确认活动本身“是什么”。</div>
+    <div class="card"><b>OGC / 媒体资料</b>帮助了解活动“发生了什么影响”。</div>
+    <div class="card"><b>UGC / 用户内容</b>帮助发现用户“真正关心什么、怎么体验”。</div>
+  </div>
+</section>
+
+<section id="check">
+  <h2>提交前自检｜可以照这个标准检查</h2>
+  <table>
+    <tr><th>检查项</th><th>本示范</th></tr>
+    <tr><td>案例真实存在，并写明时间与平台</td><td>✓</td></tr>
+    <tr><td>至少提供2个可打开的资料链接</td><td>✓</td></tr>
+    <tr><td>能区分“事实”和“自己的分析”</td><td>✓</td></tr>
+    <tr><td>分析活动目的、目标用户、参与机制</td><td>✓</td></tr>
+    <tr><td>使用“有料、有心、有趣”分析</td><td>✓</td></tr>
+    <tr><td>提出至少1个可改进之处</td><td>✓</td></tr>
+    <tr><td>完成平台选择、选题、标题与提纲</td><td>✓</td></tr>
+    <tr><td>写出完整文案，不只交提纲</td><td>✓</td></tr>
+    <tr><td>PGC、OGC、UGC分类基本正确</td><td>✓</td></tr>
+    <tr><td>重要事实能回到可靠来源核实</td><td>✓</td></tr>
+  </table>
+  <div class="warn"><b>注意：</b>本案例为示范分析案例，正式作业请另选案例完成，不重复使用“麦麦对讲机”。</div>
+</section>
+
+<section>
+  <h2>参考资料</h2>
+  <div class="source-list">
+    <a href="https://www.mcdonalds.com.cn/news/20240522-Childrens-day-2" target="_blank">麦当劳中国官网｜活动具体规则</a>
+    <a href="https://www.mcdonalds.com.cn/news/20240522-Childrens-Day" target="_blank">麦当劳中国官网｜2024六一主题活动介绍</a>
+    <a href="https://www.thepaper.cn/newsDetail_forward_27534825" target="_blank">澎湃新闻｜售罄、二手转售及用户讨论</a>
+    <a href="https://www.36kr.com/p/2798222127607430" target="_blank">36氪｜麦当劳周边营销观察</a>
+  </div>
+</section>
+
+</main>
+
+<div class="footer">《新媒体活动运营与文案写作》课堂综合作业示范｜供教学参考</div>
+</body>
+</html>
